@@ -19,9 +19,12 @@ va applicato uno sconto del 40% per gli over 65.
 */
 
 // seleziono l'input usando l'id
-const userDistance = document.getElementById('km');
+const userDistance = document.getElementById('km').value;
 
 // seleziono l'altro input usando l'id
-const userAge = document.getElementById('age');
+const userAge = document.getElementById('age').value;
+
 // seleziono il select usando l'id
+document.getElementById('genera'); addEventListener('click');
+console.log();
 // poi una volta selezionati, devo leggere il loro valore, ma solo dopo che l'utente clicca sul pulsante.
