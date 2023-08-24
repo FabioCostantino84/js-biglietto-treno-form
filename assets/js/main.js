@@ -25,6 +25,10 @@ const userDistance = document.getElementById('km').value;
 const userAge = document.getElementById('age').value;
 
 // seleziono il select usando l'id
-document.getElementById('genera'); addEventListener('click');
-console.log();
+document.getElementById('genera'); addEventListener('click', myGenerator);
+
+function myGenerator() {
+    console.log('cliccato');
+    
+}
 // poi una volta selezionati, devo leggere il loro valore, ma solo dopo che l'utente clicca sul pulsante.
